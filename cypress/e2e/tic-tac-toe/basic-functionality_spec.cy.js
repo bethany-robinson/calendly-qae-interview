@@ -16,6 +16,14 @@ describe('Test Tic Tac Toe game', () => {
       cy.get('#table').should('not.be.visible');
 
     });
+    
+    it('generates a grid with the correct values', () => {
+      cy.get('#number').type('5'); 
+      cy.get('#start').click();
+      cy.get('#table').find('td').should('have.length',25);
+
+    });
+
 
     it('plays a round of the game', () => {
       cy.get('#number').type('3'); 
