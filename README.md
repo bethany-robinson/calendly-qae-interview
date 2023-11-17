@@ -10,7 +10,7 @@ The following script tests the tic tac toe game provided by Calendly.
   5. select basic-functionality_spec from the list of specs to run
 
 ## Link to Bug report
-Through manual tests, there were several bugs found. Click Here to see the full report
+Through manual tests, there were several bugs found. [Click Here](https://docs.google.com/document/d/1QVyeOVUMaE5FvTA6eWXpMstT-5O3hAPjHBN5ubA9o-Q/edit?usp=sharing) to see the full report
 
 ## Link to Screen Recording
 The following is a screen recording walk through of the automated test script. Click Here to see the runthrough
